@@ -1,2 +1,2 @@
 # R_PythonCourseKNU
-Studying R and Pythin programming language.
+Studying R and Python programming language.
