@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## R Markdown
-#1. Створити змінні базових (atomic) типів. Базові типи: character, numeric,integer, complex, logical.
+##1. Створити змінні базових (atomic) типів. Базові типи: character, numeric,integer, complex, logical.
 ch<-123L
 num<-22.5
 i<-2
