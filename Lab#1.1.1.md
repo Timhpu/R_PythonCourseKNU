@@ -11,11 +11,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## R Markdown
 ## 1. Створити змінні базових (atomic) типів. Базові типи: character, numeric,integer, complex, logical.
- ```ch<-123L
+  ch<-123L
  num<-22.5
  i<-2
  lG<- TRUE
- cm<-1 + 1i ```
+ cm<-1 + 1i
 ## 2. Створити вектори, які: містить послідовність з 5 до 75; містить числа 3.14, 2.71, 0, 13; 100 значень TRUE.
 f1<-c(5:75)
 f2<-c(3.14, 2.71, 0, 13)
