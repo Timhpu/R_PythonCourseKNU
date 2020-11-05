@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## R Markdown
 ## 1. Створити змінні базових (atomic) типів. Базові типи: character, numeric,integer, complex, logical.
- ch<-123L
+ ```ch<-123L
  num<-22.5
  i<-2
  lG<- TRUE
@@ -21,10 +21,10 @@ f1<-c(5:75)
 f2<-c(3.14, 2.71, 0, 13)
 f3<-c(rep(TRUE, 100))
 ## 3. Створити наступну матрицю за допомогою matrix, та за допомогою cbind або rbind
-#0.5 1.3 3.5
-#3.9 131 2.8
-#0 2.2 4.6
-#2 7 5.1
+#[0.5 1.3 3.5
+3.9 131 2.8
+0 2.2 4.6
+2 7 5.1]
 
  [,1]  [,2] [,3]
 [1,]  0.5   1.3  3.5
@@ -130,7 +130,7 @@ dt
 3    LEM          550 1800
 4     LE          450 1600
 5     BS          350 1450
-
+```
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
